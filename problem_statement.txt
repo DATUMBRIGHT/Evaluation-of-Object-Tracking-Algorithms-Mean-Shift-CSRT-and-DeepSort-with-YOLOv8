@@ -1,0 +1,50 @@
+In this project, your task is to explore the following two computer vision applications. 
+(i) Structure from Motion (SfM) and  
+(ii) Object Tracking.  
+Note that your grade will depend on the extent of the analysis and just completing the 
+requirements outlined here fully will get you 90% of the total credits. Work in a group of two 
+and your teammate should be different from previous group assignments. 
+ 
+Report: Structure your report as below: 
+1. Introduction. 
+2. Part I: SfM 
+a. Methods. Discuss one of the methods from each application step by step 
+with code snippet. 
+b. Experiments and Results 
+c. Discussion 
+3. Part II: Object Tracking 
+a. Methods. Discuss one of the methods from each application step by step 
+with code snippet. 
+b. Experiments and Results (include evaluation) 
+c. Discussion 
+4. Conclusion 
+ 
+ 
+Code: Write code in jupyter notebook and submit both the notebook and pdf export. 
+ 
+Structure from Motion 
+---------------------------- 
+Set camera in auto-focus mode. Do experiments for the following. 
+Algorithms: 
+1. Sequential adjustment 
+2. Bundle adjustment 
+ 
+Experiments: 
+1. Indoor and outdoor objects.  
+2. Objects close and far 
+3. Vary the number of views 
+ 
+ 
+Object Tracking 
+-------------------- 
+Algorithms: 
+i. Mean Shift or CamShift 
+ii. CSRT or KCF 
+iii. SORT or DeepSort 
+ 
+Experiments: 
+i. Moving camera with static object 
+ii. Moving camera with moving object 
+iii. Static camera with moving object 
+iv. Try with varying object velocity. You can skip frame to try vary the speed. 
+ 
